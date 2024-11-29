@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.bmi-calc{
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgb(195, 241, 230);
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgb(244, 223, 191);
+    display: flex;
+}
+.box{
+    width: 350px;
+    background-image: url("assets/BMI.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.data{
+    flex: 1;
+    padding: 15px;
+}
+h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(36, 185, 13);
+    
+}
+.intput-con{
+    margin-bottom: 15px;
+}
+label{
+    display:block;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: rgb(210, 5, 225);
+    
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px soild rgb(211, 27, 27);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(168, 172, 186);
+    color: rgb(38, 39, 40);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(166, 24, 52);
+    margin-left: 10px;
+}
+
+.result{
+    margin-top:20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.result.p{
+    margin: 1px 0;
+    color: rgb(22, 5, 38);
+}
+
+.result p:first-child{
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
